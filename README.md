@@ -8,7 +8,7 @@ challenge.</a></p>
 
 ## Links
 
-- [Repo](https://github.com/kelseychristensen/Daily-UI-Day-04 "Daily UI Day 03 Repo")
+- [Repo](https://github.com/kelseychristensen/Daily-UI-04 "Daily UI Day 04 Repo")
 - [Dribbble](https://dribbble.com/shots/19952876-Daily-UI-Day-04-Calculator "Dribbble Link")
 - [Live Link](https://flooring-calculator.onrender.com "Live Link")
 
