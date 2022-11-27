@@ -1,0 +1,77 @@
+/*COLORS*/
+/*off white #c2b9b0 rgb(194,185,176)*/
+/*dark brown #241814 rgb(36,24,20)*/
+/*light brown #9e806d rgb(158,128,109)*/
+/*brown #7a5440 rgb(122,84,64)*/
+/*white #e0e1de rgb(224,225,222)*/
+
+/*CONTENT*/
+
+body, html {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.calc-content {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+/*FONTS*/
+
+h1 {
+    color: rgb(36,24,20);
+    font-size: 5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+
+h2 {
+    color: #9F2B00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .25rem;
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+
+.superscript {
+
+}
+/*BACKGROUND IMAGE*/
+
+.bg-image {
+    background-image: linear-gradient(to left, rgb(224,225,222) 50%, rgb(224,225,222, 0)),
+    url("/static/bernard-hermant-X-Bu9X6gok0-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*FORM STYLING*/
+
+input[type=submit] {
+    background-color: rgb(36,24,20);
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 1.75rem;
+    vertical-align: bottom;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(158,128,109);
+}
